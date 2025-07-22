@@ -1,0 +1,21 @@
+role_id,role
+1,Provider
+2,Nurse Practitioner
+3,Physician Assistant
+4,Surgical Scheduler
+5,Medical Assistant
+6,Chart Prep
+7,Biller
+8,Front Desk
+9,Authorizations
+10,Clerk
+11,CEO
+12,COO
+13,Practice Manager
+14,Practice Supervisor
+15,Help Desk
+16,Director
+17,Manager
+18,HR Director
+19,IT Director
+20,Revenue Cycle Manager

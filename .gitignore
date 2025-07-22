@@ -1,0 +1,23 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment Variables
+.env
+
+# macOS
+.DS_Store
+
+# VS Code or PyCharm IDE files (optional)
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Docker (optional but useful if you later add Compose files or volumes)
+*.pid
+
+# Data files to exclude (optional):
+# /data/scratch/
