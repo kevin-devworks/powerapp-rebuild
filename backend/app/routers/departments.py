@@ -7,4 +7,4 @@ router = APIRouter()
 
 @router.get("/departments/", response_model=list[schemas.DepartmentOut])
 def read_departments(db: Session = Depends(get_db)):
-    return crud.get(db)
+    return crud.get_departments(db)

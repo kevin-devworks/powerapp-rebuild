@@ -13,4 +13,4 @@ provider_id,staff_id,specialty,insurance_not_accepted,patient_age_minimum,patien
 12,8,"Foot, ankle (replacement, revision, and fx), hip (replacement, revision and fx), knee (replacement/revisions and fx), shoulder pain, elbow pain,, 2nd opinions, Neck and spine","""""","""18""",NO NEW WORK-COMP. Wrist fractures only if previous or existing pt.,"""""",""""""
 13,4,"Shoulder, Elbow pain, Hip, Knee, Spine, Neck, fingers pain, hands pain, Wrist pain/fractures  ","""""","""16""",NO HUMANA CAP,"NO ELBOWS FRACTURES, NO HAND FRACTURES, OR FINGER FRACTURES",""""""
 14,2,"Hip and knee joint replacement, Ankle fractures, elbow fractures, wrist fractures, neck and spine","""""","""16""","""""","NO HAND PAIN/FRACTURES, NO FINGERS PAIN/FRACTURES/LACERATIONS",""""""
-15,12,Vascular,"""""","""18""","""""","""""",""""""
+15,12,Vascular,,"""18""","""""","""""",""""""

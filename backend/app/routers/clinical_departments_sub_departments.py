@@ -7,4 +7,4 @@ router = APIRouter()
 
 @router.get("/clinical-departments-sub-departments/", response_model=list[schemas.ClinicalDepartmentSubDepartmentOut])
 def read_clinical_departments_sub_departments(db: Session = Depends(get_db)):
-    return crud.get_back_office_department_phone_numbers(db)
+    return crud.get_clinical_departments_sub_departments(db)

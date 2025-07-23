@@ -60,7 +60,7 @@ class ProviderTeam(Base):
     provider_id = Column(Integer, ForeignKey('providers.provider_id'), nullable=False, index=True)
     staff_id = Column(Integer, ForeignKey('staff.staff_id'), nullable=False)
     role_id = Column(Integer, ForeignKey('roles.role_id'), nullable=False)
-    phone_number_id = Column(Integer, ForeignKey('phone_numbers.phone_number_id'), nullable=False)
+    phone_number_id = Column(Integer, ForeignKey('phone_numbers.phone_number_id'), nullable=True)
 
 class PhoneNumber(Base):
     __tablename__ = "phone_numbers"

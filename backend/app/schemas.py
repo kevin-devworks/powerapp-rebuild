@@ -51,7 +51,7 @@ class ProviderTeamOut(BaseModel):
     provider_id: int
     staff_id: int
     role_id: int
-    phone_number_id: int
+    phone_number_id: int | None = None
     class Config:
         from_attributes = True
 
