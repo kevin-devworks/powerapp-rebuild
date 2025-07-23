@@ -36,3 +36,27 @@ def get_clinical_departments_sub_departments(db: Session):
 def get_clinical_departments(db: Session):
     return db.query(models.ClinicalDepartment).all()
 
+def get_departments(db: Session):
+    return db.query(models.Department).all()
+
+def get_location_addresses(db: Session):
+    return db.query(models.LocationAddress).all()
+
+def get_location_phone_numbers(db: Session):
+    return db.query(models.LocationPhoneNumber).all()
+
+def get_location_types(db: Session):
+    return db.query(models.LocationType).all()
+
+def get_provider_teams(db: Session):
+    return db.query(models.ProviderTeam).all()
+
+def get_roles(db: Session):
+    return db.query(models.Role).all()
+
+def get_staff_phone_numbers(db: Session):
+    return db.query(models.StaffPhoneNumber).all()
+
+def get_staff_department_roles(db: Session):
+    return db.query(models.StaffDepartmentRole).all()
+
